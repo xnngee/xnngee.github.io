@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!--Generator: Gravit.io-->
+<svg xmlns="http://www.w3.org/2000/svg" width="29.713" height="26" style="isolation:isolate" viewBox="61.144 286 29.713 26">
+  <g fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="3" stroke-width="2">
+    <path d="M82.928 299L76 311h-6.928l-3.464-6 6.928-12L76 299l-6.928 12H76l6.928-12z" vector-effect="non-scaling-stroke"/>
+    <path d="M82.928 311l6.928-12-6.928-12H69.072l-6.928 12 6.928 12h13.856z" vector-effect="non-scaling-stroke"/>
+    <path d="M89.856 299H76l-6.928-12h13.856l6.928 12z" vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>
