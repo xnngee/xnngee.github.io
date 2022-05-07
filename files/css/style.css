@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+    color: rgb(233, 233, 233);
+    padding: 5vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul>li a {
+    color: rgb(233, 233, 233);
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(233, 200, 0);
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+.term-prompt {
+    display: flex;
+    align-items: center;
+}
+
+.term-prompt p,
+.term-prompt input {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+/* .cmdline::after {
+    content: "";
+    top: 0;
+    display: inline-block;
+    background-color: rgb(233, 233, 233);
+    vertical-align: top;
+    width: 13px;
+    height: 21px;
+    animation: blink 1s step-end infinite;
+} */
+
+.cmdline {
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    margin-left: 0.6rem;
+    width: 100%;
+    font: inherit;
+    border: none;
+    color: inherit;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
